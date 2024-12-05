@@ -1,0 +1,14 @@
+{
+  "name": "hcss",
+  "urlPart": "hcss",
+  "description": "",
+  "modules": [
+    {
+      "id": "app-1",
+      "name": "App",
+      "urlPart": "app",
+      "description": "",
+      "version": 1
+    }
+  ]
+}
