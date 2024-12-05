@@ -1,3 +1,4 @@
+```markdown
 # Trimble App Xchange Connector
 
 This repository provides a guide for developers building connectors on the Trimble App Xchange platform. For a broader introduction to the platform, including pre-development considerations, view our [App Xchange Help Documentation](#).
@@ -31,11 +32,7 @@ The recommended way to use the CLI is to install it as a global .NET tool:
 
 ```bash
 dotnet tool install Trimble.Xchange.Connector.CLI --global
-
-## Updating the CLI Tool
-
-```markdown
-## Updating the CLI Tool
+```
 
 To update the tool, run:
 
@@ -72,7 +69,7 @@ Connectors follow a specific structure when initialized with the CLI using `xcha
 ```
 
 ### Important Notes:
-- **Do not rename or move** the following files:
+- Do **not** rename or move:
   - `Connector.sln`
   - `Connector/`
   - `Connector.csproj`
@@ -86,11 +83,11 @@ For small reusable components, duplicate the necessary classes into your connect
 
 ### Project Reference
 For larger components:
-
 1. Add your existing project to `Connector.sln`.
 2. Reference it in `Connector.csproj`.
 
-#### Example:
+Example:
+
 ```
 | -> {CompanyName}SourceCode
     | -> {CompanyName}.sln
