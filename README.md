@@ -1,6 +1,6 @@
 # Trimble App Xchange Connector
 
-This repository provides a guide for developers building connectors on the Trimble App Xchange platform. For a broader introduction to the platform, including pre-development considerations, view our [App Xchange Help Documentation](#).
+This repository provides a guide for developers building connectors on the Trimble App Xchange platform. For a broader introduction to the platform, including pre-development considerations, view our [App Xchange Connector SDK](https://trimble-xchange.github.io/connector-docs/).
 
 ## SDK Documentation Overview
 
